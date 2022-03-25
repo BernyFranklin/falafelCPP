@@ -71,7 +71,7 @@ int main(int argc, const char * argv[]) {
     // End of loop
     
     // Compute total
-    total = (subtotal + SALES_TAX) + subtotal;
+    total = (subtotal * SALES_TAX) + subtotal;
     
     // Display bill
     cout << "===================" << endl;
